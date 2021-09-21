@@ -10,7 +10,7 @@ td_down {
     width: 150;
 }
 
-input_text {
+input_number {
     size: 12;
     border-width: 2px;
     border-style: solid;
@@ -18,6 +18,16 @@ input_text {
     color: #5214ff;
     letter-spacing: 3px;
 }
+
+input_submit{
+    size: 12;
+    border-width: 2px;
+    border-style: solid;
+    font-size: 10;
+    color: #5214ff;
+    letter-spacing: 3px;
+}
+
 img{
     display:block;
     margin:auto;

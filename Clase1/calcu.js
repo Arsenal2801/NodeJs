@@ -16,19 +16,19 @@ do {
         switch (response) {
             case "1":
                 var result = parseInt(n1) + parseInt(n2)
-                console.log('El resultado es: '+ result)
+                console.log(`El resultado es: ${result}`)
                 break;
             case "2":
                 var result = parseInt(n1) - parseInt(n2)
-                console.log('El resultado es: '+ result)
+                console.log(`El resultado es: ${result}`)
                 break;
             case "3":
                 var result = parseInt(n1) / parseInt(n2)
-                console.log('El resultado es: '+ result)
+                console.log(`El resultado es: ${result}`)
                 break;
             case "4":
                 var result = parseInt(n1) * parseInt(n2)
-                console.log('El resultado es: '+ result)
+                console.log(`El resultado es: ${result}`)
                 break;
             default:
                 break;

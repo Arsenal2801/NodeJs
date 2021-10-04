@@ -1,5 +1,5 @@
 
-process.on( 'message', ( c ) => {
-    const p = `\nSubproceso 3`;
-    console.log( `${ p }\nMi color favorito es: ${ c }` )
+process.on('message', (c) => {
+    let p = `Subproceso 3`;
+    console.log(`${p} Mi comida favorita ${c}`)
 });

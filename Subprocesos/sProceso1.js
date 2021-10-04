@@ -1,5 +1,5 @@
 
-process.on( 'message', ( matricula ) => {
-    const p = `\nSubproceso 1`;
-    console.log( `${ p }\nMi matricula es: ${ matricula }` )
+process.on('message', (matricula) => {
+    let p = `Subproceso 1`;
+    console.log(`${p} Mi matricula ${matricula}`)
 });

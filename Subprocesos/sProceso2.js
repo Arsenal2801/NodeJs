@@ -1,5 +1,5 @@
 
-process.on( 'message', ( gp ) => {
-    const p = `\nSubproceso 2`;
-    console.log( `${ p }\nMi grupo es: ${ gp }` )
+process.on('message', (gp) => {
+    let p = `Subproceso 2`;
+    console.log(`${p} Mi grupo ${gp}`)
 });
